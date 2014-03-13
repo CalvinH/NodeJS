@@ -1,0 +1,170 @@
+* /index.cfm
+ * /patients/index.cfm
+ * /patients/kidneykitchen/index.cfm
+ * /patients/kidneykitchen/recipes.cfm
+
+RECIPES
+The Kidney Kitchen offers many delicious recipes. To help you choose those that
+may be appropriate for you, we've labeled each recipe to clarify whether it's
+intended for people on dialysis, those with diabetes and/or those with chronic
+kidney disease (CKD).Every recipe in the Kidney Kitchen is acceptable for kidney transplant
+recipients.
+
+Please talk to your health care provider about your meal plan, and if you have
+specific questions or concerns, please contact your doctor.
+
+Green=DiabetesBlue=CKDDialysis=Orange--------------------------------------------------------------------------------
+
+Click on the links below for "kidney friendly" recipes.
+
+ * #breakfasts
+ * #soupsalad
+ * #entrees
+ * #vegetables
+ * #breads
+ * #desserts
+
+a name="breakfasts" id="breakfasts"BREAKFASTS
+Start the morning right with a healthy and hearty kidney-friendly breakfast.
+
+ * content/Granola_Bars.cfmCKD,Dialysis
+ * content/Pumpkin_Cream_Cheese_Muffins.cfmCKD,Dialysis,Diabetes
+ * content/sunshine_french_toast.cfmCKD,Dialysis,Diabetes
+ * content/lyk_breakfast_cereal.cfmCKD,Dialysis
+ * content/sticky_buns.cfmCKD,Dialysis
+ * content/pb_oatmeal.cfmCKD,Diabetes
+ * content/berry_tofu_smoothie.cfmCKD,Diabetes
+   (*This recipe is moderately high in potassium. If you're on dialysis, please
+   check with your dietitian if it is right for you.*)
+ * content/ScrambledEggMuffins.cfmCKD,Dialysis,Diabetes
+ * content/pumpkinPancakes.cfmCKD,Dialysis,Diabetes
+
+a name="soupsalad" id="soupsalad"SOUPS AND SALADS
+Enjoy low-salt, low-fat salads and soups with these recipes—perfect by itself or
+as the complement to any meal.
+
+ * content/chicken_noodle_soup.cfmCKD,Dialysis,Diabetes
+ * content/Bow-Tie-Pasta-Salad.cfmCKD,Dialysis,Diabetes
+ * content/Lemon-Curry-Chicken-Salad.cfmCKD,Dialysis,Diabetes
+ * content/Pasta_Salad.cfmCKD,Dialysis,Diabetes
+ * content/Cobb_Salad.cfmCKD,Diabetes
+ * content/Fiesta_Salad.cfmCKD,Dialysis,Diabetes
+ * content/Garden_Salad.cfmCKD,Dialysis,Diabetes
+ * content/Summer_Fruit_Slaw.cfmCKD,Dialysis,Diabetes
+ * content/Favorite_Cranberry_Salad.cfmCKD,Dialysis,Diabetes
+ * content/Apple_Cranberry_Walnut_Salad.cfmCKD,Dialysis,Diabetes
+ * content/Cranberry_Raspberry_Gelatin_Salad.cfmCKD,Dialysis,Diabetes
+ * content/smoke_chicken_apple_soup.cfmCKD,Diabetes
+ * content/cream_crab_soup.cfmCKD,Dialysis,Diabetes
+ * content/crunchy_apple_fennel_salad.cfmCKD,Dialysis,Diabetes
+ * content/szechwan_cucumber_salad.cfmCKD,Dialysis,Diabetes
+ * content/curry.cfmCKD,Dialysis
+ * content/Yogurt-Covered-Fruit-Salad.cfmCKD,Dialysis,Diabetes
+
+a name="entrees" id="entrees"MEAT, CHICKEN AND SEAFOOD ENTREES
+Need a traditional meal that's fine-tuned to good kidney health? Below are some
+great recipes for dinners and hot lunches.
+
+ * content/cranberry_ginger_chicken.cfmCKD,Dialysis
+ * content/Bunless_Quinoa_Lamb_Burgers_with_Curry_Ketchup.cfmCKD,Dialysis,Diabetes
+ * content/Snow_Lemon_Salmon.cfmCKD,Dialysis,Diabetes
+ * content/Bolognese_with_Rice_Noodles.cfmCKD,Dialysis
+ * content/Easy_Crock_Pot_Pulled_Pork.cfmCKD,Dialysis,Diabetes
+ * content/Mexican_Antojitos.cfmCKD,Dialysis,Diabetes
+ * content/chicken_casserole_alfredo.cfmCKD,Dialysis,Diabetes
+ * content/maple_balsamic_chicken.cfmCKD,Dialysis,Diabetes
+ * content/bbq_pineapple_chicken.cfmCKD,Dialysis,Diabetes
+ * content/ginger_roasted_chicken.cfmCKD,Diabetes
+ * content/grilled_sesame_chicken.cfmCKD,Dialysis,Diabetes
+ * content/poultry_gravy.cfmCKD,Diabetes
+ * content/roast_turkey_sage.cfmCKD,Dialysis,Diabetes
+ * content/tomato_free_bbq_sauce.cfmCKD,Dialysis,Diabetes
+ * content/LemonThymeStarkistTunaPastaSalad.cfmCKD,Dialysis,Diabetes
+ * content/baked_salmon.cfmCKD,Diabetes
+ * content/spring_herb_chicken.cfmCKD,Dialysis,Diabetes
+ * content/Chicken_and_Zucchini_Quiche.cfmCKD,Dialysis,Diabetes
+ * content/chicken_casserole_alfredo.cfmCKD,Dialysis,Diabetes
+ * content/Chicken-Schnitzel-Puffed-Rice-Chicken-Cutlets.cfmCKD,Dialysis,Diabetes
+ * content/Chicken-Salad.cfmCKD,Dialysis,Diabetes
+ * content/Mexican-Style-Stuffed-Peppers.cfmCKD,Dialysis,Diabetes
+ * content/Chipotle-Shrimp-Tacos.cfmCKD,Dialysis,Diabetes
+ * content/Italian_Basil_Chicken_Sliders.cfmCKD,Dialysis,Diabetes
+ * content/Healthy_Chicken_Nuggets_&_Fries.cfmCKD,Dialysis,Diabetes
+ * content/Shredded-Mexican-Chicken-in-Crockpot.cfmCKD,Dialysis,Diabetes
+ * content/Chili_Con_Carne_v2.cfmCKD,Dialysis,Diabetes
+ * content/Buffalo_Chicken_Scoops.cfmCKD,Diabetes
+ * content/Baked_Turkey_Spring_Rolls.cfmCKD,Dialysis,Diabetes
+ * content/Indian_CoconutCurryChicken_wChoppedApples.cfmCKD,Diabetes
+ * content/Tropical_Chicken_Risotto.cfmCKD,Dialysis
+ * content/Holiday-Ham.cfmCKD,Dialysis,Diabetes
+
+a name="vegetables" id="vegetables"VEGETABLES AND SIDES
+No diet is completely balanced without vegetables.
+
+ * content/vegetable_fried_rice.cfmCKD,Dialysis,Diabetes
+ * content/TurkeyBacon_DeviledEggs.cfmCKD,Dialysis,Diabetes
+ * content/Baked_Cranberry_Polenta_Cake.cfmCKD,Dialysis,Diabetes
+ * content/pumpkinpepper_hummus.cfmCKD,Dialysis,Diabetes
+ * content/BBQ-Apple-Chips.cfmCKD,Dialysis,Diabetes
+ * content/spice_rubbed_corn.cfmCKD
+ * content/potluck_potatoes.cfmCKD,Diabetes
+ * content/apple_sage_stuffing.cfmCKD,Dialysis,Diabetes
+ * content/braised_red-cabbage.cfmCKD,Diabetes
+ * content/asparagus_mushroom_stew.cfmCKD,Diabetes
+ * content/stir_fry_dinner.cfmCKD,Dialysis
+ * content/grilled_vegetables.cfmCKD,Diabetes
+   (*This recipe is high in potassium. Please ask your health care provider if
+   it is acceptable on your meal plan)
+ * content/bulgur_pilaf.cfmCKD,Diabetes
+ * content/cucumbers_horseradish_dill_dip.cfmCKD,Diabetes
+ * content/SnowPeaOrzo.cfmCKD,Dialysis,Diabetes
+ * content/sweet_potato_wedges.cfmCKD
+ * content/Healthy_Chicken_Nuggets_&_Fries.cfm#PolentaFriesCKD,Dialysis
+ * content/Cauliflower_No_Mash_Potatoes.cfmCKD,Dialysis,Diabetes
+ * content/Balsamic_Marinated_Mushrooms.cfmCKD,Dialysis,Diabetes
+ * content/Curry_Ginger_Pea_Dip.cfmCKD,Dialysis,Diabetes
+ * content/Zucchini_Tortilla_Bites.cfmCKD,Dialysis,Diabetes
+ * content/GreenBeans_and_MushroomGravy.cfmCKD,Dialysis,Diabetes
+ * content/Moroccan-Couscous.cfmCKD,Dialysis,Diabetes
+ * content/Glazed-Carrots.cfmCKD,Dialysis,Diabetes
+ * content/Green-Bean-Bundles.cfmCKD,Dialysis,Diabetes
+
+a name="breads" id="breads"BREADS
+ * content/grilled_flat_bread.cfmCKD,Dialysis,Diabetes
+ * content/RoastedOnionGarlicPizza.cfmCKD,Dialysis,Diabetes
+ * content/zucchini_bread.cfmCKD,Dialysis
+
+a name="desserts" id="desserts"DESSERTS
+With these kidney-healthy desserts, you can have your cake and eat it, too!
+
+ * content/apple_almond_galette.cfmCKD,Dialysis,Diabetes
+ * content/Apple_Caramel_Crisp.cfmCKD,Dialysis,Diabetes
+ * content/apple_puffs.cfmCKD,Dialysis
+ * content/apple_tart.cfmCKD,Dialysis
+ * content/blueberry_lemon_cake.cfmCKD,Dialysis,Diabetes
+ * content/caramel-apple.cfmCKD,Dialysis,Diabetes
+ * content/chocolate_pineapple_trifle.cfmCKD
+   (*This recipe is moderately high in potassium. If you're on dialysis, please
+   check with your dietitian if it is right for you.*)
+ * content/Cranberry_Ginger_Apricot_Chutney.cfmCKD,Dialysis,Diabetes
+ * content/Cranberry-Lemonade-Slushie.cfmCKD,Dialysis
+ * content/pineapple_strawberry_lemon_sorbet.cfmCKD,Dialysis
+ * content/Garlic_&_Onion_Popcorn_Snack_Mix.cfmCKD,Dialysis,Diabetes
+ * content/holiday_eggnog.cfmCKD,Dialysis,Diabetes
+ * content/pear_almond_parfait.cfmCKD,Dialysis
+ * content/pineapple_bar_cookies.cfmCKD,Dialysis
+ * content/pineapple_frangelico_sorbet.cfmCKD,Dialysis,Diabetes
+ * content/pumpkin_maple_custard.cfmCKD,Dialysis,Diabetes
+ * content/Renal-Friendly_Ranch_Cheese_Ball.cfmCKD,Dialysis,Diabetes
+ * content/rum_pear_tarts.cfmCKD,Dialysis,Diabetes
+ * content/strawberry_grand_marnier.cfmCKD,Dialysis,Diabetes
+ * content/Sugar_Popcorn.cfmCKD,Dialysis,Diabetes
+ * content/sweethearts_dessert.cfmCKD,Dialysis
+ * content/sweetheart_tarts.cfmCKD,Dialysis
+ * content/berry_tofu_smoothie.cfmCKD,Diabetes
+   (*This recipe is moderately high in potassium. If you're on dialysis, please
+   check with your dietitian if it is right for you.*)
+ * content/pineapple_strawberry_lemon_sorbet.cfmCKD,Diabetes
+ * content/rum_baked_apples.cfmCKD,Diabetes
+ * content/WatermelonSpritzer.cfmCKD,Dialysis
+ * content/Fruit-Crisp.cfmCKD,Dialysis,Diabetes
