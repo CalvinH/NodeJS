@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NKF: Kidney Kitchen</title>
+<!-- start styles - includes NKF styles, Print Style and ieHacks -->
+<cfinclude template="/nav/styles.cfm">
+<!-- end styles - includes NKF styles, Print Style and ieHacks -->
+<meta name="robots" content="all" />
+</head>
+<body id="patients" class="twodeep">
+<!-- [start] Header -->
+<cfinclude template="/nav/nav_header.cfm">
+<!-- [end] Header --> 
+<!-- [start] mainNav -->
+<cfinclude template="/nav/nav_primary.cfm">
+<!-- [end] mainNav --> 
+<!-- [start] MainWrapper -->
+<div id="main-wrapper"> 
+	<!-- [start] rightColumn -->
+	<cfinclude template="/nav/rightColumn_patients.cfm">
+	<!-- [end] Right Column --> 
+	<!-- [start] Crumb Trail -->
+	<nav id="crumb">
+		<ul>
+			<li><a href="/index.cfm">Home</a></li>
+			<li><a href="/patients/index.cfm">Patients</a></li>
+			<li><a href="/patients/kidneykitchen/index.cfm">Kidney Kitchen</a></li>
+			<li><a href="/patients/kidneykitchen/recipes.cfm">Recipes</a></li>
+		</ul>
+	</nav>
+	<!-- [end] Crumb Trail --> 
+	<!-- [start] Left Column -->
+	<div id="left-column">
+		<section id="content">
+			<h1 class="title">Recipes</h1>
+			<p>The Kidney Kitchen offers many delicious recipes. To help you choose those that may be appropriate for you, we've labeled each recipe to clarify whether it's intended for people on dialysis, those with diabetes and/or those with chronic kidney disease (CKD).<em> Every recipe in the Kidney Kitchen is acceptable for kidney transplant recipients.</em></p>
+			<p><strong>Please talk to your health care provider about your meal plan, and if you have specific questions or concerns, please contact your doctor.</strong></p>
+			<table border="0" width="100%" align="center" style="text-align:center; border:none;">
+				<tr>
+					<td valign="top" colspan="3">&nbsp;</td>
+				</tr>
+				<tr>
+					<td valign="top" width="33%"><span style="color:#060; font-size:16px;"><strong>Green=Diabetes</strong></span></td>
+					<td valign="top" width="33%"><span style="color:#009; font-size:16px;"><strong>Blue=CKD</strong></span></td>
+					<td valign="top" width="33%"><span style="color:#F30; font-size:16px;"><strong>Dialysis=Orange</strong></span></td>
+				</tr>
+			</table>
+			<hr style="height:1px; width:100%;" />
+			<p>Click on the links below for "kidney friendly" recipes.</p>
+			<ul>
+				<li><a href="#breakfasts">Breakfasts</a></li>
+				<li><a href="#soupsalad">Soups and Salads</a></li>
+				<li><a href="#entrees">Meat, Chicken and Seafood Entrees</a></li>
+				<li><a href="#vegetables">Vegetables and Sides</a></li>
+				<li><a href="#breads">Breads</a></li>
+				<li><a href="#desserts">Desserts</a></li>
+			</ul>
+			<a name="breakfasts" id="breakfasts"></a>
+			<h2>Breakfasts</h2>
+			<p>Start the morning right with a healthy and hearty kidney-friendly breakfast.</p>
+			<ul>
+				<li><a href="content/Granola_Bars.cfm">Granola Bars</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/Pumpkin_Cream_Cheese_Muffins.cfm">Pumpkin Cream Cheese Muffins</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/sunshine_french_toast.cfm">Sunshine French Toast</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/lyk_breakfast_cereal.cfm">Love Your Kidneys, Breakfast Cereal</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/sticky_buns.cfm">Breakfast Sticky Buns</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/pb_oatmeal.cfm">Peanut Butter Oatmeal</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/berry_tofu_smoothie.cfm">Very Berry Smoothie</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span><br />
+					<span style="font-size:smaller;">(*This recipe is moderately high in potassium. If you're on dialysis, please check with your dietitian if it is right for you.*)</span></li>
+				<li><a href="content/ScrambledEggMuffins.cfm">Scrambled Egg Muffins</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/pumpkinPancakes.cfm">Pumpkin Pancakes</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+			</ul>
+			<a name="soupsalad" id="soupsalad"></a>
+			<h2>Soups and Salads</h2>
+			<p>Enjoy low-salt, low-fat salads and soups with these recipes&mdash;perfect by itself or as the complement to any meal.</p>
+			<ul>
+				<li><a href="content/chicken_noodle_soup.cfm">Chicken Noodle Soup</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+                <li><a href="content/Bow-Tie-Pasta-Salad.cfm">Bow-Tie Pasta Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Lemon-Curry-Chicken-Salad.cfm">Lemon Curry Chicken Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Pasta_Salad.cfm">Pasta Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Cobb_Salad.cfm">Cobb Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Fiesta_Salad.cfm">Fiesta Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Garden_Salad.cfm">Garden Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Summer_Fruit_Slaw.cfm">Summer Fruit Slaw</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Favorite_Cranberry_Salad.cfm">Favorite Cranberry Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Apple_Cranberry_Walnut_Salad.cfm">Apple Cranberry Walnut Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Cranberry_Raspberry_Gelatin_Salad.cfm">Cranberry&ndash;Raspberry Gelatin Salad</a><span style="color:#009;"> CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/smoke_chicken_apple_soup.cfm">Smoked Chicken and Apple Soup</a><span style="color:#009;"> CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/cream_crab_soup.cfm">Cream of Crab Soup</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/crunchy_apple_fennel_salad.cfm">Crunchy Apple Fennel Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/szechwan_cucumber_salad.cfm">Szechwan Cucumber Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/curry.cfm">Creamy Curry Rice &amp; Apple Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/Yogurt-Covered-Fruit-Salad.cfm">Yogurt Covered Fruit Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+			</ul>
+			<a name="entrees" id="entrees"></a>
+			<h2>Meat, Chicken and Seafood Entrees</h2>
+			<p>Need a traditional meal that's fine-tuned to good kidney health? Below are some great recipes for dinners and hot lunches.</p>
+			<ul>
+				<li><a href="content/cranberry_ginger_chicken.cfm">Cranberry Ginger Chicken</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span> </li>
+				<li><a href="content/Bunless_Quinoa_Lamb_Burgers_with_Curry_Ketchup.cfm">Bunless Quinoa Lamb Burgers with Curry Ketchup</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Snow_Lemon_Salmon.cfm">Snow Lemon Salmon</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Bolognese_with_Rice_Noodles.cfm">Bolognese with Rice Noodles</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/Easy_Crock_Pot_Pulled_Pork.cfm">Easy Crock Pot Pulled Pork</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Mexican_Antojitos.cfm">Mexican Antojitos</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/chicken_casserole_alfredo.cfm">Chicken Casserole Alfredo</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/maple_balsamic_chicken.cfm">Maple-Balsamic Chicken</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/bbq_pineapple_chicken.cfm">BBQ Pineapple Chicken</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/ginger_roasted_chicken.cfm">Ginger Roasted Chicken with an Asian Slaw</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/grilled_sesame_chicken.cfm">Grilled Chicken Sesame</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/poultry_gravy.cfm">Poultry Gravy</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/roast_turkey_sage.cfm">Roast Turkey with Fresh Sage</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/tomato_free_bbq_sauce.cfm">Tomato&ndash;Free BBQ Sauce</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/LemonThymeStarkistTunaPastaSalad.cfm">Lemon Thyme Starkist Tuna Pasta Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/baked_salmon.cfm">Baked Salmon with Roasted Asparagus on Cracked Wheat Bun</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/spring_herb_chicken.cfm">Spring Herb Grilled Chicken</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Chicken_and_Zucchini_Quiche.cfm">Chicken and Zucchini Quiche</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/chicken_casserole_alfredo.cfm">Chicken Casserole Alfredo</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Chicken-Schnitzel-Puffed-Rice-Chicken-Cutlets.cfm">Kidney Friendly Chicken Schnitzel / Double Coated Puffed Rice Chicken Cutlets</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Chicken-Salad.cfm">Chicken Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Mexican-Style-Stuffed-Peppers.cfm">Mexican Style Stuffed Peppers</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Chipotle-Shrimp-Tacos.cfm">Chipotle Shrimp Tacos</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Italian_Basil_Chicken_Sliders.cfm">Italian Basil Chicken Sliders</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Healthy_Chicken_Nuggets_&_Fries.cfm">Healthy Chicken Nuggets &amp; Fries</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Shredded-Mexican-Chicken-in-Crockpot.cfm">Shredded Mexican Chicken In A Crock-Pot</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Chili_Con_Carne_v2.cfm">Chili Con Carne</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Buffalo_Chicken_Scoops.cfm">Buffalo Chicken Scoops</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Baked_Turkey_Spring_Rolls.cfm">Baked Turkey Spring Rolls</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Indian_CoconutCurryChicken_wChoppedApples.cfm">Indian Coconut Curry Chicken with Chopped Apples</a> <span style="color:#009;">CKD</span>,<span style="color: #F30"> </span><span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Tropical_Chicken_Risotto.cfm">Tropical Chicken Risotto</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/Holiday-Ham.cfm">Holiday Ham</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+			</ul>
+			<a name="vegetables" id="vegetables"></a>
+		  <h2>Vegetables and Sides</h2>
+			<p>No diet is completely balanced without vegetables.</p>
+			<ul>
+				<li><a href="content/vegetable_fried_rice.cfm">Vegetable Fried Rice</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/TurkeyBacon_DeviledEggs.cfm">Turkey Bacon, Egg and Cheese Deviled Eggs</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Baked_Cranberry_Polenta_Cake.cfm">Baked Cranberry Polenta Cake</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/pumpkinpepper_hummus.cfm">Pumpkin Red Pepper &ldquo;Hummus&rdquo;</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/BBQ-Apple-Chips.cfm">BBQ Apple Chips</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/spice_rubbed_corn.cfm">Spice Rubbed Corn</a> <span style="color:#009;">CKD</span></li>
+				<li><a href="content/potluck_potatoes.cfm">Potluck Potatoes</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/apple_sage_stuffing.cfm">Apple Sage Stuffing</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/braised_red-cabbage.cfm">Braised Red Cabbage</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/asparagus_mushroom_stew.cfm">Roasted Asparagus and Wild Mushroom Stew</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/stir_fry_dinner.cfm">Stir Fry Dinner</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/grilled_vegetables.cfm">Grilled Vegetables</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span> <br />
+					<span style="font-size:smaller;">(*This recipe is high in potassium. Please ask your health care provider if it is acceptable on your meal plan)</span></li>
+				<li><a href="content/bulgur_pilaf.cfm">Grilled Vegetables on Bulgur Pilaf</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/cucumbers_horseradish_dill_dip.cfm">Cucumbers with Horseradish Dill Dip</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/SnowPeaOrzo.cfm">Snow Pea &amp; Orzo Salad</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/sweet_potato_wedges.cfm">Sweet Potato Wedges</a> <span style="color:#009;">CKD</span></li>
+				<li><a href="content/Healthy_Chicken_Nuggets_&_Fries.cfm#PolentaFries">Baked Polenta Fries</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><span class="title"><a href="content/Cauliflower_No_Mash_Potatoes.cfm">Cauliflower No-Mash Potatoes</a></span> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><span class="title"><a href="content/Balsamic_Marinated_Mushrooms.cfm">Balsamic Marinated Mushrooms</a></span> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><span class="title"><a href="content/Curry_Ginger_Pea_Dip.cfm">Curry Ginger Pea Dips</a></span> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><span class="title"><a href="content/Zucchini_Tortilla_Bites.cfm">Zucchini Tortilla Bites</a></span> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/GreenBeans_and_MushroomGravy.cfm">Green Beans and Mushroom Gravy</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Moroccan-Couscous.cfm">Moroccan Couscous</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Glazed-Carrots.cfm">Glazed Carrots</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Green-Bean-Bundles.cfm">Green Bean Bundles</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+			</ul>
+			<a name="breads" id="breads"></a>
+		  <h2>Breads</h2>
+			<ul>
+				<li><a href="content/grilled_flat_bread.cfm">Grilled Low-Salt Flat Bread</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/RoastedOnionGarlicPizza.cfm">Roasted Onion Garlic Pizza</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/zucchini_bread.cfm">Zucchini Bread</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+			</ul>
+			<a name="desserts" id="desserts"></a>
+			<h2>Desserts</h2>
+			<p>With these kidney-healthy desserts, you can have your cake and eat it, too!</p>
+			<ul>
+				<li><a href="content/apple_almond_galette.cfm">Apple Almond Galette</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Apple_Caramel_Crisp.cfm">Apple Caramel Crisp</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/apple_puffs.cfm">Apple Puffs</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/apple_tart.cfm">Apple Tart</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/blueberry_lemon_cake.cfm">Blueberry Lemon Pound Cake</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/caramel-apple.cfm">Caramel Apple Cupcakes</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/chocolate_pineapple_trifle.cfm">Chocolate Pineapple Trifle</a> <span style="color:#009;">CKD</span><br>
+					<span style="font-size:smaller;">(*This recipe is moderately high in potassium. If you're on dialysis, please check with your dietitian if it is right for you.*)</span></li>
+				<li><a href="content/Cranberry_Ginger_Apricot_Chutney.cfm">Cranberry Ginger Apricot Chutney</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Cranberry-Lemonade-Slushie.cfm">Cranberry Lemonade Slushie</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/pineapple_strawberry_lemon_sorbet.cfm">Fresh Strawberry Lemon Sorbet</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/Garlic_&_Onion_Popcorn_Snack_Mix.cfm">Garlic & Onion Popcorn Snack Mix</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/holiday_eggnog.cfm">Holiday Eggnog</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/pear_almond_parfait.cfm">Pear and Almond Parfait</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/pineapple_bar_cookies.cfm">Pineapple Bar Cookies</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/pineapple_frangelico_sorbet.cfm">Pineapple Frangelico Sorbet</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/pumpkin_maple_custard.cfm">Pumpkin Maple Custard</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Renal-Friendly_Ranch_Cheese_Ball.cfm">Renal-Friendly  Ranch Cheese Ball</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/rum_pear_tarts.cfm">Rum Pear Tarts</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/strawberry_grand_marnier.cfm">Strawberry Grand Marnier</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/Sugar_Popcorn.cfm">Sugar Popcorn</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/sweethearts_dessert.cfm">Sweetheart's Dessert</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/sweetheart_tarts.cfm">Sweetheart Tarts</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/berry_tofu_smoothie.cfm">Very Berry Tofu Smoothie</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span><br />
+					<span style="font-size:smaller;">(*This recipe is moderately high in potassium. If you're on dialysis, please check with your dietitian if it is right for you.*)</span></li>
+				<li><a href="content/pineapple_strawberry_lemon_sorbet.cfm">Sliced Pineapple With Strawberry Lemon Thyme Sorbet</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li><a href="content/rum_baked_apples.cfm">Rum-Baked Apples</a> <span style="color:#009;">CKD</span>, <span style="color:#060;">Diabetes</span></li>
+				<li> <a href="content/WatermelonSpritzer.cfm">Watermelon Spritzer</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span></li>
+				<li><a href="content/Fruit-Crisp.cfm">Fruit Crisp</a> <span style="color:#009;">CKD</span>, <span style="color:#F30;">Dialysis</span>, <span style="color:#060;">Diabetes</span></li>
+			</ul>
+		</section>
+		<!--- [end] content ---> 
+	</div>
+	<!--- [end] Left Column ---> 
+</div>
+<!--- [start] Footer --->
+<cfinclude template="/nav/nav_footer.cfm">
+<!--- [end] Footer --->
+</body>
+</html>
